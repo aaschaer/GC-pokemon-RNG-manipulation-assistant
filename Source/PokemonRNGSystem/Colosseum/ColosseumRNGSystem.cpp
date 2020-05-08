@@ -434,6 +434,7 @@ BaseRNGSystem::StartersPrediction ColosseumRNGSystem::generateStarterPokemons(u3
   u32 lBaseId = LCG(seed) >> 16;
   u32 hBaseId = LCG(seed) >> 16;
   result.trainerId = lBaseId;
+  result.secretId = hBaseId;
 
   // For each starter pokemon
   for (int i = 0; i < 2; i++)

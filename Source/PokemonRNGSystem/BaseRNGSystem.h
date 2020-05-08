@@ -52,6 +52,7 @@ public:
     u32 startingSeed = 0;
     int frameNumber = 0;
     int trainerId = 0;
+    int secretId = 0;
   };
 
   struct StatsRange
